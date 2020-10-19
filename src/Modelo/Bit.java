@@ -12,6 +12,15 @@ package Modelo;
 public class Bit {
     
     private boolean valor;
+    private boolean paridad;
+
+    public boolean isParidad() {
+        return paridad;
+    }
+
+    public void setParidad(boolean paridad) {
+        this.paridad = paridad;
+    }
 
     public Bit(boolean valor) {
         this.valor = valor;
